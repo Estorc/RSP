@@ -7,7 +7,7 @@
  * - Compiling patterns for string matching.
  * - Matching strings against compiled patterns.
  * *********************************************************************************
- * @section RSP_Strings  Strings Module
+ * @section RSP Module RSP Module
  * <RSP/rsp.h>
  ***********************************************************************************
  * @section RSP_Metadata Metadata
@@ -38,7 +38,8 @@
  * SOFTWARE.
  ***********************************************************************************/
 
-#include <string.h>
+#pragma once
+#include <RSP/string.h>
 
 /**
  * @brief Enumeration of token types used in pattern matching.

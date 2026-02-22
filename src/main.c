@@ -174,7 +174,7 @@ int main() {
                 "* Ok\n"
                 "*/ /* test 2 */", "(/\\*).*(\\*/)");
 
-    const char * pattern = "\"(.*[\\\\\"]!(\\\\\")?\\\\?)*\"";
+    const char * pattern = "\"(.*[\\\\\"]!(\\\\\")?\\\\?\\\\?)*\"";
 
     struct rsp_pattern *compiled_pattern = rsp_compile(pattern);
     printf("Compiled pattern: \n");
